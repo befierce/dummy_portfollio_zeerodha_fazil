@@ -1,0 +1,210 @@
+.header {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    height: 60px;
+    min-width: 320px;
+    box-sizing: border-box;
+    z-index: 9999;
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.1);
+    align-items: end;
+  }
+  
+  .wrapper {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .header-right {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .header .logo {
+    flex: 0;
+    line-height: 1;
+    margin: 0 20px 0 50px;
+    display: inline-block;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #444;
+    text-decoration: none;
+  }
+  .header .header-right .mobile-page-title {
+    display: inline-flex;
+    margin-left: auto;
+    font-weight: 400;
+    font-size: 1.25rem;
+  }
+  a {
+    color: #0059c1;
+    text-decoration: none;
+  }
+  .header .header-right .toggle-mobile-menu {
+    margin-left: auto;
+    margin-top: 20px;
+    /* margin-bottom: 10px; */
+  }
+  .toggle-mobile-menu {
+    float: right;
+    line-height: 4;
+    display: inline-flex;
+    margin-right: 20px;
+    margin-top: 25px;
+  }
+  #nav-icon4 {
+    width: 20px;
+    height: 25px;
+    position: relative;
+    transform: rotate(0deg);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+  }
+  #nav-icon4 span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: #4a4a4a;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: 0.25s ease-in-out;
+  }
+  #nav-icon4 span:first-child {
+    top: 0;
+    transform-origin: left center;
+  }
+  #nav-icon4 {
+    width: 20px;
+    height: 25px;
+    position: relative;
+    transform: rotate(0deg);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+  }
+  #nav-icon4 span:nth-child(2) {
+    top: 6px;
+    transform-origin: left center;
+  }
+  
+  #nav-icon4 span:nth-child(3) {
+    top: 12px;
+    transform-origin: left center;
+  }
+  .header .app-nav {
+    flex: 8;
+    flex-basis: auto;
+    min-width: 480px;
+    text-align: right;
+  }
+  .hide-on-mobile {
+    display: none !important;
+  }
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 400;
+    font-family: Inter, sans-serif;
+  }
+  .header .app-nav a,
+  #app .header .right-nav a {
+    margin: 0 10px;
+    padding: 0 5px;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 25px;
+    display: inline-block;
+    text-decoration: none;
+    color: #4a4a4a;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header .app-nav {
+    flex: 8;
+    flex-basis: auto;
+    min-width: 480px;
+    text-align: right;
+  }
+  .header .app-nav .dropdown-label {
+    position: relative;
+    outline: none;
+  }
+  .header .app-nav a.router-link-active,
+  #app .header .right-nav a.router-link-active {
+    border-bottom: 2px solid #0059c1;
+    height: 56px;
+  }
+  
+  .header .app-nav a.router-link-active,
+  .header .app-nav a:hover,
+  .header .right-nav a.router-link-active,
+  .header .right-nav a:hover {
+    cursor: pointer;
+    color: #0059c1;
+  }
+  
+  .wrapper {
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  .page-container {
+    padding: 16px !important;
+  }
+  .page-content {
+    padding-bottom: 120px;
+  }
+  .page-content {
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 60px;
+    background: #fff;
+    min-height: 100vh;
+    padding-bottom: 150px;
+  }
+  
+  .header .logo img {
+    max-height: 50%; /* Set maximum height for the logo */
+    max-width: 150px; /* Set maximum width for the logo */
+    height: auto; /* Allow the height to adjust automatically */
+  }
+  
+  
+  /* 
+  .header .logo {
+    flex: 0;
+    line-height: 1;
+    margin: 0 20px 0 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center; 
+    color: #444;
+    text-decoration: none;
+  }*/
+  
+  .header .header-right .mobile-page-title {
+    display: inline-flex;
+    margin-left: 80px; 
+    font-weight: 400;
+    font-size: 1.25rem;
+    align-items: center;
+  } 
+  
